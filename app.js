@@ -9,7 +9,7 @@ const blogRoutes = require('./routes/blogRoutes')
 // express app
 const app = express();
 
-const dbuRI = 'mongodb+srv://john:test@nodetuts.vfcpj.mongodb.net/node-tuts?retryWrites=true&w=majority';
+const dbuRI = 'mongodb+srv://<username>:<password>@nodetuts.vfcpj.mongodb.net/node-tuts?retryWrites=true&w=majority';
 mongoose.connect(dbuRI, {useNewUrlParser: true, useUnifiedTopology: true})
 .then((result)=> app.listen(3000))
 .catch((err) => console.log(err));
