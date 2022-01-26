@@ -15,5 +15,8 @@
     "lodash": "^4.17.21",
     "mongoose": "^6.1.8",
     "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.0.17"
   }
 }
