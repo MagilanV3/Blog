@@ -14,7 +14,7 @@ const app = express();
 const dbuRI = 'mongodb+srv://<username>:<password>@nodetuts.vfcpj.mongodb.net/node-tuts?retryWrites=true&w=majority';
 mongoose.connect(dbuRI, {useNewUrlParser: true, useUnifiedTopology: true})
 
-// Start the localhost,
+// Start the localhost
 .then((result)=> app.listen(5000))
 
 // Check for any error with localhost startup
