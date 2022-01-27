@@ -1,0 +1,1 @@
+"V" (Views) part of the MVC Design Pattern
