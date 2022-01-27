@@ -11,7 +11,7 @@ const blogRoutes = require('./routes/blogRoutes')
 const app = express();
 
 // Connect to the Mongodb database
-const dbuRI = 'mongodb+srv://john:test@nodetuts.vfcpj.mongodb.net/node-tuts?retryWrites=true&w=majority';
+const dbuRI = 'mongodb+srv://<username>:<password>@nodetuts.vfcpj.mongodb.net/node-tuts?retryWrites=true&w=majority';
 mongoose.connect(dbuRI, {useNewUrlParser: true, useUnifiedTopology: true})
 
 // Start the localhost
