@@ -13,7 +13,7 @@
       color: #222;
     }
 
-    /* nav & footer styles */
+    /* Navigation */
     nav{
       display: flex;
       justify-content: space-between;
@@ -38,11 +38,6 @@
       color: #777;
       font-weight: 300;
     }
-    footer{
-      color: #777;
-      text-align: center;
-      margin: 80px auto 20px;
-    }
     h2{
       margin-bottom: 40px;
     }
@@ -54,7 +49,7 @@
       margin-left: 20px;
     }
 
-    /* index styles */
+    /* Home Page Styles */
     .blogs a{
       display: block;
       margin: 40px 0;
@@ -65,7 +60,7 @@
       color: rgb(3, 7, 233);
     }
 
-    /* details styles */
+    /* Styles for the Blog details page */
     .details{
       position: relative;
     }
@@ -81,7 +76,7 @@
       box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
     }
 
-    /* create styles */
+    /* Styles for the "New Blog" Page */
     .create-blog form{
       max-width: 400px;
       margin: 0 auto;
