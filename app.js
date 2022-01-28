@@ -28,12 +28,14 @@ app.set('view engine', 'ejs');
 
 // Using any static files located in the public folder (styles.css) 
 app.use(express.static('public'));
+
 // Middleware Files
 app.use(express.urlencoded({extended: true}));
 app.use((req, res, next) => {
   res.locals.path = req.path;
   next();
 });
+
 // Use the Blog Routes script when the home page is accessed
 app.use('/blogs', blogRoutes);
 
@@ -41,9 +43,6 @@ app.use('/blogs', blogRoutes);
 app.get('/', (req, res) => {
   res.redirect('/blogs');
 });
-
-
-
 
 // 404 page
 app.use((req, res) => {

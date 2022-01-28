@@ -1,3 +1,5 @@
+// Redirects pages to the corresponding function in the controller
+
 const express = require('express');
 const BlogController = require('../controllers/BlogController')
 const router = express.Router();
