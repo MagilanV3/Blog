@@ -1,11 +1,10 @@
 {
   "name": "blog",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
@@ -18,5 +17,14 @@
   },
   "devDependencies": {
     "tailwindcss": "^3.0.17"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MagilanV3/Blog-using-Node.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MagilanV3/Blog-using-Node.js/issues"
+  },
+  "homepage": "https://github.com/MagilanV3/Blog-using-Node.js#readme",
+  "description": ""
 }
