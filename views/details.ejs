@@ -1,9 +1,10 @@
+<!--The Details page when you click on a Blog-->
 <html lang="en">
 <%- include("./partials/head.ejs") %>
 
 <body>
   <%- include("./partials/nav.ejs") %>
-
+  <!--the format of the page-->
   <div class="details content">
     <h2><%= blog.title %></h2>
     <div class="content">
@@ -13,6 +14,7 @@
   </div>
 
   <script>
+    //JavaScript used to delete blogs from the database
     const trashcan = document.querySelector('a.delete');
     trashcan.addEventListener('click', (e) => {
       const endpoint = `/blogs/${trashcan.dataset.doc}`;
